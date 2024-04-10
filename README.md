@@ -15,5 +15,12 @@ This library is being created for organization purposes, Note Studios' games wil
 ### Building
 
 ```sh
- $ gradle build
+ $ gradle build jar
 ```
+
+### Directories
+| Name | Description |
+| - | - |
+| `repo/` | Repository resources |
+| `src/` | Source code |
+| `assets/` | Library's assets |
