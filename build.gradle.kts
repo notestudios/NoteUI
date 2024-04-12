@@ -35,6 +35,14 @@ java {
     }
 }
 
+sourceSets {
+    main {
+        java {
+            srcDirs("src")
+        }
+    }
+}
+
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     //useJUnitPlatform()
